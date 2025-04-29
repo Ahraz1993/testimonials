@@ -63,10 +63,10 @@ main{
 }
 .box{
     border-radius: 0.5rem;
-    padding-right: 1rem;
+   
     min-width: none;
     max-width: 22rem;
-    box-shadow: 0.3rem 0.3rem 0.6rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0.3rem 1.5rem 0.6rem rgba(0, 0, 0, 0.15);
 }
 .top{
     background-color: hsl(263, 55%, 52%);
@@ -191,20 +191,26 @@ img{
    
     .box{
         max-width: none;
+        height:16rem;
     }
     .mobile{
         display:none;
     }
    
     .container{
-        height:auto;
-        max-width: 80rem;
-        min-width:80rem;
+       
+        max-width: 67rem;
+        min-width: 67rem;
         display:grid;
         grid-template-columns: repeat(4,auto);
         grid-template-rows: repeat(2,auto);
     }
+    .profileImg{
+    
+        height:0.5rem;
+    }
     .Kira{
+        height:auto;
         grid-column-start: 4;
         grid-column-end: 5;
         grid-row-start: 1;
@@ -220,19 +226,19 @@ img{
         max-width: none;
     }
     .briefExplanation p{
-        font-size: 1.3rem;
+        font-size: 1rem;
         padding-right: 2rem;
         
     }
     .mainExplanation p{
-        font-size: 0.9rem;
+        font-size: 0.7rem;
         padding-right: 2rem;
     }
     .patrick .briefExplanation p{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .patrick .mainExplanation p{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     
 }
